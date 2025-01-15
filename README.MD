@@ -1,6 +1,6 @@
-# Projeto seção 9
+# Project Managment
 
--> Criar um projeto para gerenciamento de projetos.
+-> Criar um quadro para gestão de projetos.
 
 
 ## Modules & Namespaces
