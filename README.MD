@@ -21,6 +21,26 @@
 -> Para isso precisa alterar também o "module": "AMD" e colocar AMD ou system.
 ```
 
+### Modules
 
+-> Utilizar os imports padrão.
+
+-->>> Nesse caso deve-se referenciar os arquivos .js 
+
+-->>> Nesse caso serão criadas várias pastas iguais no js, diferente do anterior que seria tudo em uma só.
+
+-> Existem algumas outras maneiras de imports, como o * as validation from, interessante para quando tenha nomes parecidos, desse jeito é preciso utilizar o dot notation, validation.validate para chamar a funçao.
+
+
+```
+import { Project, ProjectStatus } from "../models/project";  -> exemplo do código
+
+-> Desativar "outFile"
+
+-> Alterar module: para es2015 ou superior.
+
+-> Ir no html, onde é recebido o script, remover o "defer" da tag <script> e adicionar type="module".
+
+```
 
 
