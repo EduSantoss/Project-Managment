@@ -1,4 +1,4 @@
-import { Project, ProjectStatus } from "../models/project.js";
+import { Project, ProjectStatus } from "../models/project";
 
 // Project State Management
 // -> pensando em uma aplicaçao maior em que temo situações com mais states como, userState quando ele esta logado ou nao, um para projects, um para um shopping cart.
